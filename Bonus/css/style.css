@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header rules */
+header{
+    background-color: #255EE9;
+    padding: 20px 10% 70px;
+    height: 566px;
+    background-image: url("../img/jumbo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: #fff;
+    text-align: center;
+}
+
+/* header nav rules */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.logo{
+    background-color: #fff;
+    height: 35px;
+    width:10%;
+}
+
+.option_list{
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option_list li{
+    list-style: none;
+    margin: 0 8.4px;
+}
+
+.option_list li a{
+    color: #fff;
+}
+
+header .login{
+    background-color: white;
+    color: #000;
+    padding: 10px 17px;
+    border-radius: 19px;
+}
+
+/* introduction rules */
+header h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+header p{
+    width: 60%;
+    font-size: 19px;
+    line-height: 30px;
+    margin: 0 auto 20px;
+}
+
+/* main actions rules */
+header .main_actions{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    margin: auto;
+}
+
+.button{    
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 19px;
+}
+
+.button.download{
+    background-color: #fff;
+    color: #000;
+}
+
+.download_arrow{
+    font-weight: bold;
+}
+
+.button.open{
+    background-color: #000;
+    color: #fff;
+}
+/* end header rules */
+
+/* features rules */
+main section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 12%
+}
+
+main .even{
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+main section{
+    position: relative;
+}
+
+main .wave{
+    content: "url(../img/wave.svg";
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: absolute;
+    top: -56px;
+    left: 0;
+}
+
+section .text{
+    width: 33%;
+}
+
+.text h2{
+    font-size: 47px;
+    margin: 35px 0;
+}
+
+.text p{
+    font-size: 19px;
+    line-height: 30px;
+}
+
+section .text.order_neg{
+    order: -1;
+}
+
+/* last setion rules */
+.last_part{
+    display: block;
+    padding-bottom: 100px;
+}
+
+.last_part .center_text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.center_text h2{
+    font-size: 43px;
+    margin-bottom: 30px;
+}
+
+.center_text p{
+    font-size: 19px;
+    line-height: 25px;
+}
+
+#big_img img{
+    width: 100%;
+}
+
+#big_img{
+    width: 90%;
+    margin: 0 auto 30px;
+}
+
+.last_part #begin_adventure{
+    margin: 0 auto 10px;
+    width: 46%;
+}
+
+.last_part h4{
+    font-size: 27px;   
+    text-align: center;
+    margin-top: -15px;
+}
+
+.closing_button{
+    display: block;
+    background-color: #7289DA;
+    color: #fff;
+    width:160px;
+    margin: 50px auto 20px;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* end main rules */
+
+/* footer rules */
+footer{
+    background-color: #23272A;
+    padding: 50px 10% 40px;
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer .flex-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #7289DA;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+footer #slogan_social{
+    width: 20%;
+}
+
+#slogan_social h3{
+    color: #7289DA;
+    font-size: 30px;
+}
+
+#select_lenguage{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+#select_lenguage img{
+    height: 20px;
+}
+
+#slogan_social #select_lenguage{
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+#slogan_social .social{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* final list rules */
+footer .flex-container ul{
+    width: calc( (80% / 4) - 50px);
+}
+
+footer .flex-container ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+footer .flex-container ul li:first-child{
+    margin: 0 0 20px;
+}
+
+footer .flex-container ul li:first-child a{
+    color: #7289DA;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.register{
+    background-color: #7289DA;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
