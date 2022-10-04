@@ -188,6 +188,11 @@ section .text.order_neg{
 footer{
     background-color: #23272A;
     padding: 50px 10% 40px;
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
 }
 
 footer .flex-container{
@@ -199,9 +204,33 @@ footer .flex-container{
 }
 
 footer #slogan_social{
-    width: 200px;
-    height: 200px;
-    background-color: brown;
+    width: 20%;
+}
+
+#slogan_social h3{
+    color: #7289DA;
+    font-size: 30px;
+}
+
+#select_lenguage{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+#slogan_social img{
+    height: 20px;
+}
+
+#slogan_social #select_lenguage{
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+#slogan_social .social{
+    margin-right: 20px;
+    font-size: 20px;
 }
 
 footer .flex-container ul{
