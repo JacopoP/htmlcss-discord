@@ -199,8 +199,8 @@ footer .flex-container{
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #7289DA;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer #slogan_social{
@@ -218,7 +218,7 @@ footer #slogan_social{
     margin: 15px 0;
 }
 
-#slogan_social img{
+#select_lenguage img{
     height: 20px;
 }
 
@@ -233,16 +233,22 @@ footer #slogan_social{
     font-size: 20px;
 }
 
+/* final list rules */
 footer .flex-container ul{
-    width: calc( ((100% - 200px) / 4) - 50px);
+    width: calc( (80% / 4) - 50px);
 }
 
 footer .flex-container ul li{
     list-style: none;
-    background-color: #fff;
-    height: 20px;
-    width: 100%;
-    border: 1px solid black;
+    margin: 15px 0;
+}
+
+footer .flex-container ul li:first-child{
+    margin: 0 0 20px;
+}
+
+footer .flex-container ul li:first-child a{
+    color: #7289DA;
 }
 
 .flex2{
@@ -252,7 +258,6 @@ footer .flex-container ul li{
 
 .register{
     background-color: #7289DA;
-    padding: 20px;
-    width: 100px;
+    padding: 10px 15px;
     border-radius: 20px;
 }
